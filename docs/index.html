@@ -1,1 +1,287 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Team - Resume Tailor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Animated Header -->
+        <header class="header">
+            <div class="logo-container">
+                <i class="fas fa-code logo-icon"></i>
+                <h1 class="logo-text">Programming<span>Team</span></h1>
+            </div>
+  
+            <nav class="top-nav">
+                <a href="#" class="btn-signup">Sign Up <i class="fas fa-arrow-right"></i></a>
+                <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+            </nav>
+        </header>
+
+        <!-- Glassmorphism Sidebar -->
+        <aside class="sidebar">
+            <nav class="main-menu">
+                <div class="menu-header">
+                    <div class="user-profile">
+                        <div class="avatar">PT</div>
+                        <div class="user-info">
+                            <span class="welcome">Welcome</span>
+                            <span class="username">Guest User</span>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li class="active">
+                        <a href="#"><i class="fas fa-home"></i> <span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-blog"></i> <span>Blog</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-shopping-cart"></i> <span>Buy</span></a>
+                        <span class="badge">Premium</span>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-box-open"></i> <span>My Purchases</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-file-alt"></i> <span>Build Resume</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-bullhorn"></i> <span>Postings</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-user"></i> <span>Profile</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-briefcase"></i> <span>Positions</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-graduation-cap"></i> <span>Education</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-thumbs-up"></i> <span>Recommendations</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-certificate"></i> <span>Certificates</span></a>
+                    </li>
+                    <li class="disabled">
+                        <a href="#"><i class="fas fa-book"></i> <span>Publications</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content with Modern Cards -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>The Resume Tailor</h2>
+                    <p class="hero-text">Transform your resume into a perfect match for any job with our AI-powered tailoring technology.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn-primary">Get Started <i class="fas fa-rocket"></i></a>
+                        <a href="#" class="btn-secondary">Learn More <i class="fas fa-info-circle"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="resume-mockup">
+                        <div class="mockup-header"></div>
+                        <div class="mockup-content">
+                            <div class="mockup-line"></div>
+                            <div class="mockup-line medium"></div>
+                            <div class="mockup-line short"></div>
+                            <div class="mockup-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Free Usage</h3>
+                    <p>First 15 tailored resume generations are free upon signup. No credit card required.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>PDF & LaTeX</h3>
+                    <p>Edit the underlying LaTeX code and re-render new PDFs at no additional cost.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI-Powered</h3>
+                    <p>Our algorithms analyze job descriptions to highlight your most relevant skills.</p>
+                </div>
+            </section>
+
+            <!-- Pricing Section -->
+            <section class="pricing">
+                <h2 class="section-title">Resume Generation Packages</h2>
+                <div class="pricing-cards">
+                    <div class="pricing-card popular">
+                        <div class="pricing-header">
+                            <h3>Basic</h3>
+                            <div class="price">$5.98</div>
+                            <div class="frequency">for 25 resumes</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 25 Resume Generations</li>
+                            <li><i class="fas fa-check"></i> LaTeX Source Files</li>
+                            <li><i class="fas fa-check"></i> Unlimited PDF Downloads</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                        </ul>
+                        <button class="btn-pricing">Choose Plan</button>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Standard</h3>
+                            <div class="price">$10.90</div>
+                            <div class="frequency">for 50 resumes</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 50 Resume Generations</li>
+                            <li><i class="fas fa-check"></i> LaTeX Source Files</li>
+                            <li><i class="fas fa-check"></i> Unlimited PDF Downloads</li>
+                            <li><i class="fas fa-check"></i> Email Support</li>
+                        </ul>
+                        <button class="btn-pricing">Choose Plan</button>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Professional</h3>
+                            <div class="price">$19.90</div>
+                            <div class="frequency">for 100 resumes</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 100 Resume Generations</li>
+                            <li><i class="fas fa-check"></i> LaTeX Source Files</li>
+                            <li><i class="fas fa-check"></i> Unlimited PDF Downloads</li>
+                            <li><i class="fas fa-check"></i> Community Support</li>
+                        </ul>
+                        <button class="btn-pricing">Choose Plan</button>
+                    </div>
+                               <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Professional</h3>
+                            <div class="price">$29.90</div>
+                            <div class="frequency">for 250 resumes</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 250 Resume Generations</li>
+                            <li><i class="fas fa-check"></i> LaTeX Source Files</li>
+                            <li><i class="fas fa-check"></i> Unlimited PDF Downloads</li>
+                            <li><i class="fas fa-check"></i> Community Support</li>
+                        </ul>
+                        <button class="btn-pricing">Choose Plan</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Resume?</h2>
+                    <p>Join thousands of professionals who landed their dream jobs with perfectly tailored resumes.</p>
+                    <button class="btn-cta">Start Free Trial <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="cta-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15,000+</div>
+                        <div class="stat-label">Resumes Generated</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">92%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3.5x</div>
+                        <div class="stat-label">More Interviews</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Modern Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <div class="logo-container">
+                        <i class="fas fa-code logo-icon"></i>
+                        <h2 class="logo-text">Programming<span>Team</span></h2>
+                    </div>
+                    <p class="footer-about">Empowering job seekers with AI-powered resume tailoring technology since 2023.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-container">
+                    <div class="footer-links-col">
+                        <h3 class="footer-title">Product</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Examples</a></li>
+                            <li><a href="#">Updates</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-col">
+                        <h3 class="footer-title">Company</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-col">
+                        <h3 class="footer-title">Resources</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">API Docs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-col">
+                        <h3 class="footer-title">Legal</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Security</a></li>
+                            <li><a href="#">GDPR</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-container">
+                    <p class="copyright">© 2023 Programming Team. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
